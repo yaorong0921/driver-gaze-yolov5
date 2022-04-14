@@ -1,13 +1,13 @@
 ## Overview
-The code for saliency metrics is based on: https://github.com/tarunsharma1/saliency_metrics/blob/master/salience_metrics.py
-The code vor the convolutional LSTM is based on: https://github.com/yaorong0921/Driver-Intention-Prediction/blob/master/models/convolution_lstm.py
-The code for extracting YOLOv5 features is based on:  https://github.com/ultralytics/yolov5 (Release 5.0)
+The code for saliency metrics is based on: https://github.com/tarunsharma1/saliency_metrics/blob/master/salience_metrics.py   
+The code vor the convolutional LSTM is based on: https://github.com/yaorong0921/Driver-Intention-Prediction/blob/master/models/convolution_lstm.py   
+The code for extracting YOLOv5 features is based on:  https://github.com/ultralytics/yolov5 (Release 5.0).  
 
 ### Training and Testing
 Our model can be trained and tested with the following steps:
 
 1. Prepare BDDA images:
-Download videos from https://bdd-data.berkeley.edu/ and extract images
+Download videos from https://bdd-data.berkeley.edu/ and extract images.   
 Camera image names are expected as videoNr_imgNr and corresponding gaze maps as videoNr_pure_hm_imgNr.
 
 2. Extract features:
@@ -18,8 +18,8 @@ Download weights (yolov5s.pt) and code from https://github.com/ultralytics/yolov
 Run compute_grid.sh
 
 4. Train and test:
-For gaze map prediction and pixel-level/object-level evaluation run gaze_prediction_and_evaluation.sh
-Training is optional, checkpoints for our trained grid 16x16 models (without LSTM, with LSTM seqlen 8, with convLSTM seqlen 6) are available.
+For gaze map prediction and pixel-level/object-level evaluation run gaze_prediction_and_evaluation.sh.  
+Training is optional, checkpoints for our trained grid 16x16 models (without LSTM, with LSTM and sequence length 8, with convLSTM and sequence length 6) are available.      
 Features are expected within folders with names training/validation/test.
 
 
