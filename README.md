@@ -1,6 +1,6 @@
 ## Overview
 The code for saliency metrics is based on: https://github.com/tarunsharma1/saliency_metrics/blob/master/salience_metrics.py   
-The code vor the convolutional LSTM is based on: https://github.com/yaorong0921/Driver-Intention-Prediction/blob/master/models/convolution_lstm.py   
+The code for the convolutional LSTM is based on: https://github.com/yaorong0921/Driver-Intention-Prediction/blob/master/models/convolution_lstm.py   
 The code for extracting YOLOv5 features is based on:  https://github.com/ultralytics/yolov5 (Release 5.0).  
 
 ### Training and Testing

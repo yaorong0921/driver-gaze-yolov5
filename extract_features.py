@@ -1,3 +1,7 @@
+"""
+The following code is adapted from the file detect.py of https://github.com/ultralytics/yolov5 (Release 5.0)
+"""
+
 import os
 import argparse
 import time

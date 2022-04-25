@@ -1,3 +1,8 @@
+"""
+The code for computing the saliency metrics is adapted from
+https://github.com/tarunsharma1/saliency_metrics/blob/master/salience_metrics.py
+"""
+
 import os
 import argparse
 import time

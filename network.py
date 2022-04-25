@@ -1,3 +1,8 @@
+"""
+The convolutional LSTM is adapted from
+https://github.com/yaorong0921/Driver-Intention-Prediction/blob/master/models/convolution_lstm.py
+"""
+
 import torch.nn as nn
 import torch.nn.functional as F
 import torch
