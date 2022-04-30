@@ -63,3 +63,16 @@ More files can be found in the 'More files' directory:
 2. The script that we used to compute the model complexity.  
 3. A script for evaluating other models based on given predicted gaze maps.  
 4. A script for drawing the ROC curves and computing the optimal thresholds.  
+
+
+### Citation
+If you find this work useful or use the code, please cite as follows:
+
+```
+@article{rong2022and,
+  title={Where and What: Driver Attention-based Object Detection},
+  author={Rong, Yao and Kassautzki, Naemi-Rebecca and Fuhl, Wolfgang and Kasneci, Enkelejda},
+  journal={arXiv preprint arXiv:2204.12150},
+  year={2022}
+}
+```
