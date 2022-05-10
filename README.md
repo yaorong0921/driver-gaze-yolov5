@@ -1,3 +1,5 @@
+This is the repo of the work [Where and What: Driver Attention-based Object Detection](https://arxiv.org/pdf/2204.12150.pdf).
+
 ## Overview
 The code for saliency metrics is based on: https://github.com/tarunsharma1/saliency_metrics/blob/master/salience_metrics.py   
 The code for the convolutional LSTM is based on: https://github.com/yaorong0921/Driver-Intention-Prediction/blob/master/models/convolution_lstm.py   
